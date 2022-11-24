@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX CONCURRENTLY uq_user_id_role_id ON users_roles(user_id, role_id);
